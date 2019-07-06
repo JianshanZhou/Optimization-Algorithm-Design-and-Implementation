@@ -1,0 +1,7 @@
+﻿  pch.cpp
+  ALM_app.cpp
+ALM_app.obj : error LNK2019: 无法解析的外部符号 _ALM_solver_for_Maximizing_MPLIP，该符号在函数 "void __cdecl main_ALM_solver_for_Maximizing_MPLIP(void)" (?main_ALM_solver_for_Maximizing_MPLIP@@YAXXZ) 中被引用
+ALM_app.obj : error LNK2019: 无法解析的外部符号 _ALM_solver_for_Maximizing_MPLIP_terminate，该符号在函数 _main 中被引用
+ALM_app.obj : error LNK2019: 无法解析的外部符号 _ALM_solver_for_Maximizing_MPLIP_initialize，该符号在函数 _main 中被引用
+ALM_solver_for_Maximizing_MPLIP.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+C:\Users\zhoujianshan\Documents\MATLAB\AugmentedLagrangianMethod\ALM_app\Debug\ALM_app.exe : fatal error LNK1120: 3 个无法解析的外部命令
